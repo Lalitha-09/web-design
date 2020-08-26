@@ -1,0 +1,151 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #514151;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0; 
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+#nav-list{
+	margin-top: 10px;
+
+}
+#nav-list a{
+	background-color: #c4e7f7;
+	text-align: center;
+	border: 1px solid black;
+	color: #000000;
+	font-weight: bold;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+#menu1{ border: 1px solid black; }
+#menu2{ border: 1px solid black; }
+#menu3{ border: 1px solid black; }
+
+h1{
+  text-align: center;
+  font-family: "comic sans MS";
+  font-weight: bold;
+}
+.box1, .box2 , .box3{
+  display: block;
+  width: 90%;
+  height: auto;
+  border: 0;
+  margin-left: 5%;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: #faebd7;
+  }
+
+
+h2{
+  text-align: center;
+  margin-right: 0;
+  font-weight: bold;
+  color: #000000;
+}
+
+p{
+  padding-top:10px;
+  padding-left:20px;
+  padding-right: :15px;
+  padding-bottom:20px;
+  color: #000000;
+  font-weight: bold;
+}
+
+@media(min-width: 1200px){
+	.container{
+					height: 100px;
+					}
+
+		.navbar-brand {
+  					padding-top: 35px;
+					}
+
+
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	 .container{
+					height: 100px;
+					}
+		.navbar-brand {
+  					padding-top: 35px;
+					}
+}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.container{
+					height: 100px;
+					}
+	.navbar-brand {
+  					padding-top: 35px;
+					}
+
+}
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+}
